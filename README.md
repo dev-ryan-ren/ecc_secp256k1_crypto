@@ -1,7 +1,10 @@
 # ecc_secp256k1_crypto
 
 基于secp256k1椭圆曲线的ecc加密解密
-1. git clone 代码后先执行pod install
+
+# using
+1. `git clone`
+2. `pod install`
 2. 单独在gitHub上下载CryptoppECC并且pod安装，讲pod中的CryptoppECC文件夹拖出来替换本项目的libc/CryptoppECC
 
 最近在做区块链相关的数字钱包，用到了ecc加密，所以整理记录一下。
