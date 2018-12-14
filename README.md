@@ -15,7 +15,6 @@ openssl 用于解析X.509规范的ctr证书，并获取公钥
 BCGenerator 用于生成比特币规则的密钥对(secp256k1)
 CryptoppECC 用于ecc加密解密
 
-
 iOS与服务器端ecc椭圆曲线加密的完整步骤
 1.服务器端生成ctr证书给iOS端，服务器端持有私钥
    证书生成细节
