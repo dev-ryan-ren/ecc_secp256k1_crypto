@@ -5,7 +5,7 @@
 ## using
 1. `git clone`
 2. `pod install`
-2. 单独在gitHub上下载CryptoppECC并且pod安装，讲pod中的CryptoppECC文件夹拖出来替换本项目的libc/CryptoppECC
+2. 单独在gitHub上下载CryptoppECC并且pod安装，将pod中的CryptoppECC文件夹拖出来替换本项目的libc/CryptoppECC
 
 ## 最近在做区块链相关的数字钱包，用到了ecc加密，所以整理记录一下。
 便于理解以下几点
