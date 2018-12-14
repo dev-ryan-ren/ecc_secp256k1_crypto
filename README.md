@@ -2,23 +2,23 @@
 
 基于secp256k1椭圆曲线的ecc加密解密
 
-# using
+## using
 1. `git clone`
 2. `pod install`
 2. 单独在gitHub上下载CryptoppECC并且pod安装，讲pod中的CryptoppECC文件夹拖出来替换本项目的libc/CryptoppECC
 
-最近在做区块链相关的数字钱包，用到了ecc加密，所以整理记录一下。
+## 最近在做区块链相关的数字钱包，用到了ecc加密，所以整理记录一下。
 便于理解以下几点
 1. 理解X.509证书规范，ecc椭圆曲线加密，secp256k1曲线
 2. 理解secp256k1曲线用于比特币密钥对和地址的生成
 3. 理解ecc加密在API接口的层面的应用
 
-借助了github上优秀的第三方库
+## 借助了github上优秀的第三方库
 openssl 用于解析X.509规范的ctr证书，并获取公钥
 BCGenerator 用于生成比特币规则的密钥对(secp256k1)
 CryptoppECC 用于ecc加密解密
 
-iOS与服务器端ecc椭圆曲线加密的完整步骤
+## iOS与服务器端ecc椭圆曲线加密的完整步骤
 1. 服务器端生成ctr证书给iOS端，服务器端持有私钥
    证书生成细节
    - 证书符合X.509规范，同时公钥也要符合
