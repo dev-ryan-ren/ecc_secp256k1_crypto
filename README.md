@@ -1,6 +1,6 @@
 # ecc_secp256k1_crypto
 
-基于secp256k1椭圆曲线的ecc加密解密
+基于secp256k1椭圆曲线的ecc加密解密(iOS)
 
 ## using
 1. `git clone`
