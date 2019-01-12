@@ -5,7 +5,7 @@
 ## using
 1. `git clone`
 2. `pod install`
-2. 单独在gitHub上下载CryptoppECC并且pod安装，将pod中的CryptoppECC文件夹拖出来替换本项目的libc/CryptoppECC
+3. `单独在gitHub上下载CryptoppECC并且pod安装，将pod中的CryptoppECC文件夹拖出来替换本项目的libc/CryptoppECC`
 
 ## 最近在做区块链相关的数字钱包，用到了ecc加密，所以整理记录一下。
 便于理解以下几点
@@ -13,7 +13,7 @@
 2. 理解secp256k1曲线用于比特币密钥对和地址的生成
 3. 理解ecc加密在API接口的层面的应用
 
-## 借助了github上优秀的第三方库
+## 资源参考
 1. openssl 用于解析X.509规范的ctr证书，并获取公钥
 2. BCGenerator 用于生成比特币规则的密钥对(secp256k1)
 3. CryptoppECC 用于ecc加密解密
@@ -31,7 +31,7 @@
 
 * 关健点:iOS端和服务器持有自己的私钥，彼此的公钥
 
-## 目前已经实现
+## 已经实现
 1. iOS自身生成secp256k1的密钥对
 2. iOS端使用自己生成的密钥对加密解密
 3. iOS端使用证书里面的公钥加密字符串
